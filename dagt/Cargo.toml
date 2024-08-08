@@ -1,0 +1,11 @@
+[package]
+name = "dagt"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+dagt-core = { path = "../core" }
+dagt-platform = { path = "../platform" }
+dagt-widgets = { path = "../widgets" }
+xkeysym = "0.2.0"

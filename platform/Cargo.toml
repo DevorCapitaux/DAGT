@@ -1,0 +1,14 @@
+[package]
+name = "dagt-platform"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dagt-core = { path = "../core" }
+dagt-gl = { path = "../gl" }
+dagt-primitives = { path = "../primitives" }
+wayland-client = "0.31.2"
+wayland-protocols = { version = "0.31.2", features = [ "client" ] }
+wayland-egl = "0.32.0"
+xkbcommon = { version = "0.7.0", features = ["wayland"] }
+xkeysym = "0.2.0"

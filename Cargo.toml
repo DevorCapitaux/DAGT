@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "core",         # interface
+  "platform",     # platform specific app and window
+  "gl",           # EGL and GLES bindings
+  "primitives",   # primitives (Circle, Rect, Glyph, Path)
+  "widgets",      # widgets
+  "fonts",        # TTF font parser
+  "dagt",         # Library combining all these crates
+]

@@ -1,0 +1,10 @@
+[package]
+name = "dagt-primitives"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+dagt-gl = { path = "../gl" }
+dagt-core = { path = "../core" }
+dagt-fonts = { path = "../fonts" }
